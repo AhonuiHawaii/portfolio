@@ -1,0 +1,31 @@
+* {
+    margin: 1px;
+    padding: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+#intro {
+    font-size: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+#content { width: 100%; }
+
+#jobContent {
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 60%;
+
+}
+
+#jobtitle {
+    font-weight: bold;
+}
+
+
+
+#skills {
+    margin: 5px;
+
+}
