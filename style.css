@@ -2,30 +2,55 @@
     margin: 1px;
     padding: 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    border: 0px solid black;
     font-size: 12px;
-}
-#intro {
-    font-size: 10px;
-    margin: 5px;
-    padding: 5px;
-}
-#content { width: 100%; }
-
-#jobContent {
-    margin: 5px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 60%;
 
 }
 
-#jobtitle {
+
+.grid-container {
+ display: grid;
+ grid-template-columns: 1000px 200px;
+ grid-template-rows: 50px 100px;
+
+
+}
+
+.grid-name {
+    grid-column: span 2;
+    height: 50px;
+
+}
+.grid-motto {
+    grid-column: span 2;
+    height: 70px;
+}
+.grid-content {
+
+}
+.jobList {
+    padding: 15px;
+}
+
+.jobtitle {
     font-weight: bold;
+    font-size: 13px;
+}
+
+.jobCompany, .jobDate {
+    display: inline-block;
+    grid: ;
 }
 
 
 
-#skills {
-    margin: 5px;
+.jobSkills {
+    padding: 20px;
+}
 
+
+.skills {
+    padding: 20px;
 }
